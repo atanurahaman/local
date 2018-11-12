@@ -4,7 +4,7 @@
   <xsd:element name="Request">
         <xsd:complexType>
             <xsd:sequence>
-                <xsd:element name="EmployeeID" type="xsd:integer"/>
+                <xsd:element name="" type="xsd:integer"/>
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>
@@ -14,7 +14,7 @@
                 <xsd:element name="EmployeeID" type="xsd:string"/>
                  <xsd:element name="EmployeeName" type="xsd:string"/>
                   <xsd:element name="EmployeeAddress" type="xsd:string"/>
-                   <xsd:element name="EmployeePhone" type="xsd:string"/>
+                   <xsd:element name="HHH" type="xsd:string"/>
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>

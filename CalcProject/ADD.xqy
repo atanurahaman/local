@@ -7,7 +7,7 @@ declare namespace ns1="http://www.example.org";
 
 declare variable $ADDreq as element() (:: schema-element(ns1:AdditionRequest) ::) external;
 
-declare function local:func($ADDreq as element() (:: schema-element(ns1:AdditionRequest) ::)) as element() (:: schema-element(ns1:AdditionResponse) ::) {
+declare function local:func($ADDreq as eleHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHment() (:: schema-element(ns1:AdditionRequest) ::)) as element() (:: schema-element(ns1:AdditionResponse) ::) {
     <ns1:AdditionResponse>
         <ns1:result>{fn:data($ADDreq/ns1:operand1)+fn:data($ADDreq/ns1:operand2)}</ns1:result>
     </ns1:AdditionResponse>
